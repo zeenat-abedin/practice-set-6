@@ -21,7 +21,7 @@ class RailwayForm{
     }
 }
 
-// let harryForm = new RailwayForm()
+let harryForm = new RailwayForm("Harry", 123456, "Pacific Ocean")
 // harryForm.fill('Harry', 123456)
 
 // let rohanForm = new RailwayForm()
