@@ -1,9 +1,12 @@
-class RailwayForm(){
+class RailwayForm{
+    constructor(){
+        console.log("Constructor is called")
+    }
     submit(){
-        alert(this.name +"The form is submitted")
+        alert(this.name + " " + "The form is submitted")
     }
     cancel(){
-        alert(this.name + "The form is cancelled")
+        alert(this.name + " " + "The form is cancelled")
     }
     fill(givenname, trainno){
         this.name = givenname;
