@@ -1,6 +1,9 @@
 class RailwayForm{
-    constructor(){
-        console.log("Constructor is called")
+    constructor(givenname, trainno, address){
+        console.log("Constructor is called" + " " + givenname + " " + trainno)
+        this.givenname = givenname;
+        this.trainno = trainno;
+        this.address= address;
     }
     submit(){
         alert(this.name + " " + "The form is submitted")
