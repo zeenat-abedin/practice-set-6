@@ -3,5 +3,9 @@ submit.addEventListener('click',(e) => {
     let titleContent = title.value
     let descContent = desc.value
     localStorage.setItem('todo', JSON.stringify([titleContent,descContent]))
-    console.log(e)
 })
+
+deleteBtn.addEventListener("click", (e)=>{
+    e.preventDefault()
+    localStorage.removeItem('todo')
+});
